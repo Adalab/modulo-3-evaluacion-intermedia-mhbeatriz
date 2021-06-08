@@ -17,22 +17,29 @@
   grid-template-rows: 1fr 1fr;
 }
 .list-item {
-  background-color: lightgray;
+  background-color: #efebeb;
   border-radius: 5px;
   width: 200px;
   height: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .image {
   transform: scale(2);
+  margin-top: 20px;
 }
 
 .list-title {
 }
 .list-types {
   list-style-type: none;
+  border-top: lightgray solid 2px;
+  width: 150px;
+  padding: 0;
+  text-align: center;
+  /* background-color: lightgray;
+  border-radius: 5px; */
 }
