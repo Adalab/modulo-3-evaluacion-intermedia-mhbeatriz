@@ -3,7 +3,7 @@ Esta es mi evaluación intermedia del módulo 3 para poner en práctica los cono
 
 
 # TECNOLOGÍA USADA 🔨 🚀
-React para estructurar el proyecto realizado con JavaScript.
+React
 
 
 # AGRADECIMIENTOS 🥰
