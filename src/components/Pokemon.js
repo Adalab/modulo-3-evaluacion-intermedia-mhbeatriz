@@ -1,6 +1,7 @@
+import PropTypes from "prop-types";
 const Pokemon = (props) => {
-  const itemTypes = props.dataItem.types.map((type, index) => {
-    return <li key={index}>{type}</li>;
+  const itemTypes = props.dataItem.types.map((type, id) => {
+    return <li key={id}>{type}</li>;
   });
   return (
     <div className="list-item">
@@ -16,3 +17,7 @@ const Pokemon = (props) => {
 };
 
 export default Pokemon;
+
+Pokemon.propTypes = {
+  pokemon: PropTypes.object,
+};
